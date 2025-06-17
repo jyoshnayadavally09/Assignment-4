@@ -37,8 +37,6 @@ A simple Rock Paper Scissors game where the user plays against the computer.
 3. Open the `index.html` file in your preferred web browser.
 4. Start playing!
 
-## Screenshots
 
-_Add screenshots of each game here if available._
 
 
