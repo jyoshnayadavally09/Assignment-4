@@ -1,0 +1,45 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background: #f0f0ff;
+}
+
+h1 {
+  color: #333;
+  margin-top: 20px;
+}
+
+.board {
+  margin: 30px auto;
+  display: grid;
+  grid-template-columns: repeat(4, 100px);
+  grid-gap: 15px;
+  width: fit-content;
+}
+
+.card {
+  width: 100px;
+  height: 100px;
+  background-color: #6a5acd;
+  color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  border-radius: 10px;
+  cursor: pointer;
+  user-select: none;
+  transition: 0.3s;
+}
+
+.card.revealed {
+  background-color: #fff;
+  color: #6a5acd;
+  cursor: default;
+}
+
+.card.matched {
+  background-color: #9acd32;
+  color: white;
+  pointer-events: none;
+}
